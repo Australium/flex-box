@@ -51,7 +51,8 @@ body {
 
 .header {
     background-color: rgba(255, 255, 255, 1);
-    padding: 25px 0 25px;
+    padding: 25px 0 24px;
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
 }
 
 .container {
@@ -122,4 +123,59 @@ body {
     color: rgba(0, 0, 0, 1);
     border: 1px solid rgba(0, 0, 0, 0.5);
     line-height: 43px;
+}
+
+.accelerate {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 128px 0 172px;
+}
+
+.localization {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-text {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    margin-bottom: 51px;
+}
+
+.desc {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.link-wrap {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.ad-text {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.swap {
+    line-height: 60px;
+    margin-right: 10px;
+    padding: 0 44px;
+}
+
+.white-change {
+    margin-right: 0;
+    line-height: 58px;
+    padding: 0 29px;
+}
+
+.big-picture {
+    padding: 22px 0 10px;
+}
+
+.big-image {
+    display: block;
 }
