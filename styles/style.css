@@ -200,7 +200,18 @@ body {
 
 .images-wrap {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding: 0 20px 0 26px;
 }
 
+.company-pic {
+    display: block;
+}
+
+.company-pic-link {
+    margin-right: 103px;
+}
+
+.daimler {
+    margin-right: 0;
+}
