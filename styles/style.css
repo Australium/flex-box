@@ -179,3 +179,28 @@ body {
 .big-image {
     display: block;
 }
+
+.companies {
+    background-color: rgba(255, 156, 125, 1);
+    padding: 108px 0 104px;
+}
+
+.flex-company {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-text {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.images-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
