@@ -49,3 +49,77 @@ body {
     line-height: 30px;
 }
 
+.header {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 25px 0 25px;
+}
+
+.container {
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo {
+    margin-right: 51px;
+}
+
+.logo-pic {
+    display: block;
+}
+
+.link {
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration-line: none;
+    margin-right: 57px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.margin-more {
+    margin-right: 49px;
+}
+
+.margin-less {
+    margin-right: 42px;
+}
+
+.margin-none {
+    margin-right: 0;
+}
+
+.links {
+    display: flex;
+}
+
+.button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-decoration-line: none;
+    background-color: rgba(255, 99, 54, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 0 26px 0 27px;
+}
+
+.white {
+    margin-right: 10px;
+    padding: 0 38px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    line-height: 43px;
+}
