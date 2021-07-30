@@ -60,6 +60,14 @@ body {
     margin: 0 auto;
 }
 
+.head {
+    width: 1338px;
+}
+
+.big {
+    width: 1298px;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -134,7 +142,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    width: 517px;
 }
 
 .main-text {
@@ -142,12 +150,14 @@ body {
     font-size: 65px;
     line-height: 70px;
     margin-bottom: 51px;
+    width: 517px;
 }
 
 .desc {
     font-size: 25px;
     line-height: 35px;
     margin-bottom: 50px;
+    width: 469px;
 }
 
 .link-wrap {
@@ -185,6 +195,10 @@ body {
     padding: 108px 0 104px;
 }
 
+.comp {
+    width: 1244px;
+}
+
 .flex-company {
     display: flex;
     flex-direction: column;
@@ -195,23 +209,75 @@ body {
     font-size: 50px;
     line-height: 60px;
     text-align: center;
-    margin-bottom: 70px;
+    width: 713px;
+    margin: 0 auto 70px;
 }
 
 .images-wrap {
     display: flex;
     align-items: center;
-    padding: 0 20px 0 26px;
 }
 
 .company-pic {
     display: block;
 }
 
-.company-pic-link {
+.company-item {
     margin-right: 103px;
 }
 
 .daimler {
     margin-right: 0;
+}
+
+.giant-cards {
+    padding: 90px 0 150px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.giant-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.giant-li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.giant-text-wrap {
+    width: 520px;
+}
+
+.push {
+    margin-right: 138px;
+}
+
+.giant-pic {
+    display: block;
+}
+
+.giant-text {
+    text-align: unset;
+    margin: 0 0 30px;
+    width: 478px;
+}
+.giant-desc {
+    margin-bottom: 30px;
+    width: 443px;
+}
+
+.text-link {
+    color: rgba(0, 0, 0, 1);
+}
+
+.giant-link {
+    font-weight: 600;
+    text-decoration-line: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+.no-bottom {
+    margin-bottom: 0;
 }
