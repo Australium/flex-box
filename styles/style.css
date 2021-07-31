@@ -42,7 +42,7 @@
 }
 
 body {
-    font-family: 'Graphik LCG', sans-serif;
+    font-family: 'Graphik LCG', Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: rgba(0, 0, 0, 1);
     font-size: 20px;
@@ -64,22 +64,17 @@ body {
     width: 1338px;
 }
 
-.big {
-    width: 1298px;
-}
-
 .flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo-list {
     display: flex;
     align-items: center;
 }
 
-.navbar {
+.nav-list {
     display: flex;
+}
+
+.nav-bar {
+    margin-right: 378px;
 }
 
 .logo {
@@ -93,13 +88,12 @@ body {
 .link {
     font-size: 15px;
     line-height: 20px;
-    text-decoration-line: none;
-    margin-right: 57px;
+    text-decoration-line: none;;
     color: rgba(0, 0, 0, 1);
 }
 
-.margin-more {
-    margin-right: 49px;
+.item {
+    margin-right: 57px
 }
 
 .margin-less {
@@ -121,12 +115,12 @@ body {
     text-decoration-line: none;
     background-color: rgba(255, 99, 54, 1);
     color: rgba(255, 255, 255, 1);
-    padding: 0 26px 0 27px;
+    padding: 0 24px 0 24px;
 }
 
 .white {
     margin-right: 10px;
-    padding: 0 38px;
+    padding: 0 35px;
     background-color: rgba(255, 255, 255, 1);
     color: rgba(0, 0, 0, 1);
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -136,6 +130,11 @@ body {
 .accelerate {
     background-color: rgba(255, 255, 255, 1);
     padding: 128px 0 172px;
+}
+
+.big {
+    width: 1298px;
+    justify-content: space-between;
 }
 
 .localization {
@@ -182,10 +181,6 @@ body {
     padding: 0 29px;
 }
 
-.big-picture {
-    padding: 22px 0 10px;
-}
-
 .big-image {
     display: block;
 }
@@ -195,12 +190,7 @@ body {
     padding: 108px 0 104px;
 }
 
-.comp {
-    width: 1244px;
-}
-
-.flex-company {
-    display: flex;
+.company-flex {
     flex-direction: column;
 }
 
@@ -210,7 +200,7 @@ body {
     line-height: 60px;
     text-align: center;
     width: 713px;
-    margin: 0 auto 70px;
+    margin: 0 0 70px 112px;
 }
 
 .images-wrap {
