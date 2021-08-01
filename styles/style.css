@@ -227,25 +227,14 @@ body {
 
 .giant-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .giant-li {
     display: flex;
     align-items: center;
     margin-bottom: 250px;
-}
-
-.giant-text-wrap {
-    width: 520px;
-}
-
-.push {
-    margin-right: 138px;
-}
-
-.giant-pic {
-    display: block;
+    justify-content: space-between;
 }
 
 .giant-text {
@@ -253,9 +242,30 @@ body {
     margin: 0 0 30px;
     width: 478px;
 }
+
 .giant-desc {
     margin-bottom: 30px;
     width: 443px;
+}
+
+.giant-text-wrap {
+    width: 478px;
+}
+
+.market {
+    width: 450px;
+}
+
+.quality {
+    width: 478px;
+}
+
+.text-market {
+    width: 366px;
+}
+
+.giant-pic {
+    display: block;
 }
 
 .text-link {
