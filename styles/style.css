@@ -74,7 +74,7 @@ body {
 }
 
 .nav-bar {
-    margin-right: 378px;
+    margin-right: auto;
 }
 
 .logo {
@@ -133,14 +133,13 @@ body {
 
 .big {
     width: 1298px;
-    justify-content: space-between;
 }
 
 .localization {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 517px;
+    margin: 0 auto 0 0;
 }
 
 .main-text {
@@ -235,11 +234,7 @@ body {
 }
 
 .push {
-    margin-right: 180px;
-}
-
-.push-market {
-    margin-right: 208px;
+    margin-right: auto;
 }
 
 .giant-text {
@@ -250,15 +245,11 @@ body {
 
 .giant-desc {
     margin-bottom: 30px;
-    width: 443px;
+    width: 445px;
 }
 
 .giant-text-wrap {
     width: 478px;
-}
-
-.market {
-    width: 450px;
 }
 
 .text-market {
@@ -281,4 +272,31 @@ body {
 
 .no-bottom {
     margin-bottom: 0;
+}
+
+.localize {
+    background-color: rgba(255, 248, 228, 1);
+}
+
+.flex-localize {
+    flex-direction: column;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-item {
+    width: 330px;
+    margin: 0 110px 57px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-item:nth-of-type(3n) {
+    margin-right: 0;
 }
