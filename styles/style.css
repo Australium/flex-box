@@ -45,12 +45,12 @@ body {
     font-family: 'Graphik LCG', Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
     font-size: 20px;
     line-height: 30px;
 }
 
 .header {
-    background-color: rgba(255, 255, 255, 1);
     padding: 25px 0 24px;
     border-bottom: 1px solid rgba(204, 204, 204, 1);
 }
@@ -121,14 +121,13 @@ body {
 .white {
     margin-right: 10px;
     padding: 0 35px;
-    background-color: rgba(255, 255, 255, 1);
     color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(0, 0, 0, 0.5);
     line-height: 43px;
 }
 
 .accelerate {
-    background-color: rgba(255, 255, 255, 1);
     padding: 128px 0 172px;
 }
 
@@ -222,7 +221,6 @@ body {
 
 .giant-cards {
     padding: 90px 0 150px;
-    background-color: rgba(255, 255, 255, 1);
 }
 
 .giant-list {
@@ -254,10 +252,6 @@ body {
 
 .market {
     width: 450px;
-}
-
-.quality {
-    width: 478px;
 }
 
 .text-market {
