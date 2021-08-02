@@ -379,3 +379,40 @@ body {
 .translate {
     margin: 58px 0 59px;
 }
+
+.revoult {
+    background-color: rgba(201, 232, 242, 1);
+    padding: 53px 0 105px;
+}
+
+.quote {
+    margin-right: auto;
+}
+
+.quote-text {
+    width: 838px;
+    font-weight: 400;
+    margin: 0 0 23px;
+    position: relative;
+}
+
+.quote-text::before {
+    content: "“";
+    position: absolute;
+    left: -11px;
+}
+
+.quote-text::after {
+    content: "”";
+    position: absolute;
+    right: 35px;
+}
+
+.cite {
+    margin-bottom: 7px;
+}
+
+.revolut {
+    display: block;
+}
+
