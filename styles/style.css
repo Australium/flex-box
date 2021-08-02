@@ -492,3 +492,28 @@ body {
     line-height: 60px;
     padding: 0 23px 0;
 }
+
+.wait {
+    background-color: rgba(255, 156, 125, 1);
+    padding: 119px 0 161px;
+}
+
+.wait-text {
+    font-weight: 600;
+    font-size: 65px;
+    margin: 0 0 29px;
+    width: 784px;
+}
+
+.wait-desc {
+    text-align: center;
+    width: 438px;
+    margin: 0 0 54px;
+}
+
+.wait-button {
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 17px;
+    line-height: 60px;
+    padding: 0 41px 0 42px;
+}
