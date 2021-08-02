@@ -385,8 +385,13 @@ body {
     padding: 53px 0 105px;
 }
 
+.flex-revolut {
+    align-items: flex-start;
+}
+
 .quote {
     margin-right: auto;
+    padding: 10px 0 0;
 }
 
 .quote-text {
@@ -416,3 +421,39 @@ body {
     display: block;
 }
 
+.cake {
+    background-color: rgba(218, 188, 152, 1);
+    padding: 79px 0 84px;
+}
+
+.cake-wrap {
+    width: 1330px;
+}
+
+.cakes {
+    margin: 0 67px 0 0;
+}
+
+.cake-heading {
+    width: 448px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.capterra-wrap {
+    padding: 30px 82px 22px 70px;
+    border-left: 1px solid rgba(0, 0, 0, 1);
+    display: flex;
+}
+
+.g-two {
+    margin: 0 70px 0 0;
+}
+
+.cake-block {
+    display: flex;
+    align-items: center;
+    padding: 14px 0 0;
+    margin: 0 auto 0 0;
+}
