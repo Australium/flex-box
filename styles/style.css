@@ -328,3 +328,54 @@ body {
     text-align: center;
     width: 302px;
 }
+
+.boost {
+    padding: 154px 0 187px;
+}
+
+.flex-boost {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.boost-heading {
+    width: unset;
+    margin: 0 0 25px;
+    text-align: start;
+}
+
+.boost-list {
+    justify-content: flex-start;
+}
+
+.boost-item {
+    align-items: flex-start;
+    width: 378px;
+    margin-right: 78px;
+    padding: 0;
+}
+
+.boost-text {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.boost-desc {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.boost-pic {
+    margin: 50px 0 49px;
+}
+
+.dev {
+    margin: 67px 0;
+}
+
+.translate {
+    margin: 58px 0 59px;
+}
