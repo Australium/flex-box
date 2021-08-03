@@ -535,7 +535,6 @@ body {
 
 .footer-flex {
     align-items: unset;
-    flex-wrap: wrap;
 }
 
 .studies {
@@ -610,11 +609,10 @@ body {
 }
 
 .bottom {
-    display: flex;
     margin-top: 95px;
     border-top: 1px solid rgba(0, 0, 0, 1);
     padding: 47px 76px 0 0;
-    width: 100%;
+    align-items: unset;
 }
 
 .localise-bottom-link {
