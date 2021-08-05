@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'GraphikLCG';
-    src: url('/fonts/subset-GraphikLCG-Semibold.eot');
-    src: url('/fonts/subset-GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/subset-GraphikLCG-Semibold.woff2') format('woff2'),
-        url('/fonts/subset-GraphikLCG-Semibold.woff') format('woff'),
-        url('/fonts/subset-GraphikLCG-Semibold.ttf') format('truetype'),
-        url('/fonts/subset-GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
+    src: url('../fonts/subset-GraphikLCG-Semibold.eot');
+    src: url('../fonts/subset-GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-GraphikLCG-Semibold.woff2') format('woff2'),
+        url('../fonts/subset-GraphikLCG-Semibold.woff') format('woff'),
+        url('../fonts/subset-GraphikLCG-Semibold.ttf') format('truetype'),
+        url('../fonts/subset-GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'GraphikLCG';
-    src: url('/fonts/subset-GraphikLCG-Regular.eot');
-    src: url('/fonts/subset-GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/subset-GraphikLCG-Regular.woff2') format('woff2'),
-        url('/fonts/subset-GraphikLCG-Regular.woff') format('woff'),
-        url('/fonts/subset-GraphikLCG-Regular.ttf') format('truetype'),
-        url('/fonts/subset-GraphikLCG-Regular.svg#GraphikLCG-Regular') format('svg');
+    src: url('../fonts/subset-GraphikLCG-Regular.eot');
+    src: url('../fonts/subset-GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-GraphikLCG-Regular.woff2') format('woff2'),
+        url('../fonts/subset-GraphikLCG-Regular.woff') format('woff'),
+        url('../fonts/subset-GraphikLCG-Regular.ttf') format('truetype'),
+        url('../fonts/subset-GraphikLCG-Regular.svg#GraphikLCG-Regular') format('svg');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -26,12 +26,12 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('/fonts/subset-Roboto-Regular.eot');
-    src: url('/fonts/subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/subset-Roboto-Regular.woff2') format('woff2'),
-        url('/fonts/subset-Roboto-Regular.woff') format('woff'),
-        url('/fonts/subset-Roboto-Regular.ttf') format('truetype'),
-        url('/fonts/subset-Roboto-Regular.svg') format('svg');
+    src: url('../fonts/subset-Roboto-Regular.eot');
+    src: url('../fonts/subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/subset-Roboto-Regular.woff') format('woff'),
+        url('../fonts/subset-Roboto-Regular.ttf') format('truetype'),
+        url('../fonts/subset-Roboto-Regular.svg') format('svg');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -42,7 +42,7 @@
 }
 
 body {
-    font-family: 'Graphik LCG', Arial, Helvetica, sans-serif;
+    font-family: 'GraphikLCG', Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: rgba(0, 0, 0, 1);
     background-color: rgba(255, 255, 255, 1);
@@ -115,7 +115,7 @@ body {
     text-decoration-line: none;
     background-color: rgba(255, 99, 54, 1);
     color: rgba(255, 255, 255, 1);
-    padding: 0 24px 0 24px;
+    padding: 0 23px 0 22px;
 }
 
 .white {
@@ -138,7 +138,7 @@ body {
 .localization {
     display: flex;
     flex-direction: column;
-    width: 517px;
+    width: 540px;
     margin: 0 auto 0 0;
 }
 
@@ -147,7 +147,7 @@ body {
     font-size: 65px;
     line-height: 70px;
     margin-bottom: 51px;
-    width: 517px;
+    width: 540px;
 }
 
 .desc {
@@ -170,13 +170,13 @@ body {
 .swap {
     line-height: 60px;
     margin-right: 10px;
-    padding: 0 44px;
+    padding: 0 43px 0 42px;
 }
 
 .white-change {
     margin-right: 0;
     line-height: 58px;
-    padding: 0 29px;
+    padding: 0 29px 0 28px;
 }
 
 .big-image {
@@ -240,24 +240,37 @@ body {
 .giant-text {
     text-align: unset;
     margin: 0 0 30px;
-    width: 478px;
+    width: 492px;
 }
 
 .giant-desc {
     margin-bottom: 30px;
-    width: 445px;
+    width: 476px;
 }
 
 .giant-text-wrap {
-    width: 478px;
+    width: 492px;
 }
 
 .giant-market {
     margin-top: 18px;
+    width: 512px;
+}
+
+.giant-desc-market {
+    width: 442px;
 }
 
 .giant-quality {
     margin-top: -5px;
+}
+
+.giant-ensure {
+    width: 523px;
+}
+
+.giant-dev {
+    width: 512px;
 }
 
 .text-market {
@@ -298,7 +311,7 @@ body {
 }
 
 .card-item {
-    width: 330px;
+    width: 324px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -335,7 +348,7 @@ body {
     font-size: 18px;
     line-height: 25px;
     text-align: center;
-    width: 302px;
+    width: 324px;
 }
 
 .boost {
@@ -359,8 +372,8 @@ body {
 
 .boost-item {
     align-items: flex-start;
-    width: 378px;
-    margin-right: 78px;
+    width: 408px;
+    margin-right: 33px;
     padding: 0;
 }
 
@@ -406,7 +419,7 @@ body {
 }
 
 .quote-text {
-    width: 838px;
+    width: 895px;
     font-weight: 400;
     margin: 0 0 23px;
     position: relative;
@@ -415,17 +428,18 @@ body {
 .quote-text::before {
     content: "“";
     position: absolute;
-    left: -11px;
+    left: -13px;
 }
 
 .quote-text::after {
     content: "”";
     position: absolute;
-    right: 35px;
+    right: 29px;
 }
 
 .cite {
     margin-bottom: 7px;
+    font-family: 'Roboto';
 }
 
 .revolut-pic {
@@ -447,7 +461,7 @@ body {
 }
 
 .cake-heading {
-    width: 448px;
+    width: 461px;
     font-weight: 600;
     font-size: 35px;
     line-height: 50px;
@@ -456,11 +470,14 @@ body {
 .capterra-wrap {
     padding: 30px 82px 22px 70px;
     border-left: 1px solid rgba(0, 0, 0, 1);
-    display: flex;
 }
 
 .g-two {
     margin: 0 70px 0 0;
+}
+
+.capterra {
+    vertical-align: bottom;
 }
 
 .cake-block {
@@ -480,7 +497,7 @@ body {
 }
 
 .integrate-text {
-    width: 858px;
+    width: 791px;
     margin: 0;
     line-height: 75px;
     text-align: center;
@@ -490,7 +507,7 @@ body {
     margin: 0 0 25px;
     font-weight: 400;
     font-size: 25px;
-    width: 546px;
+    width: 539px;
     text-align: center;
 }
 
@@ -500,7 +517,7 @@ body {
 
 .integrate-button {
     line-height: 60px;
-    padding: 0 23px 0;
+    padding: 0 21px 0;
 }
 
 .wait {
@@ -525,7 +542,7 @@ body {
     background-color: rgba(0, 0, 0, 1);
     font-size: 17px;
     line-height: 60px;
-    padding: 0 41px 0 42px;
+    padding: 0 40px;
 }
 
 .footer {
