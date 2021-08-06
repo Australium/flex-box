@@ -669,14 +669,8 @@ body {
 
     .links {
         width: 100%;
-        flex-direction: column;
-        align-items: stretch;
         text-align: center;
         margin: 10px 0 0;
-    }
-
-    .white {
-        margin: 0 0 10px;
     }
 
     .nav-bar {
@@ -685,6 +679,10 @@ body {
 
     .logo {
         margin: 0;
+    }
+
+    .button {
+        width: 50%;
     }
 }
 
@@ -710,7 +708,18 @@ body {
         margin: 0 0 15px;
     }
 
+    .white {
+        margin: 0 0 10px;
+    }
+
     .links {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
         margin: 15px 0 0;
+    }
+
+    .button {
+        width: unset;
     }
 }
