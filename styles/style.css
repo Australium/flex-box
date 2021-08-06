@@ -670,7 +670,7 @@ body {
     .links {
         width: 100%;
         text-align: center;
-        margin: 10px 0 0;
+        margin: 20px 0 0;
     }
 
     .nav-bar {
@@ -684,6 +684,37 @@ body {
     .button {
         width: 50%;
     }
+
+    .accelerate {
+        padding: 10px 0 20px;
+    }
+
+    .big-image {
+        order: -1;
+        width: 100%;
+        margin: 0 0 25px;
+    }
+
+    .localization {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .main-text {
+        width: unset;
+        margin: 0 0 20px;
+    }
+
+    .desc {
+        width: unset;
+        margin: 0 0 20px;
+    }
+
+    .ad-text {
+        text-align: start;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -721,5 +752,28 @@ body {
 
     .button {
         width: unset;
+    }
+
+    .main-text {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .desc {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .link-wrap {
+        flex-direction: column;
+        margin: 0 0 10px;
+    }
+
+    .swap {
+        margin: 0 0 10px;
+    }
+
+    .ad-text {
+        text-align: center;
     }
 }
