@@ -760,7 +760,7 @@ body {
 
     .giant-li {
         margin: 0 auto 30px 0;
-        width: 45%;
+        width: 48%;
         flex-direction: column;
         align-items: unset;
         justify-content: space-between;
@@ -889,5 +889,9 @@ body {
 
     .giant-text {
         margin-bottom: 15px;
+    }
+
+    .giant-li:nth-last-of-type(2) {
+        margin: 0 0 30px;
     }
 }
