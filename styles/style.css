@@ -809,6 +809,68 @@ body {
     .localize-desc {
         width: 90%;
     }
+
+    .boost {
+        padding: 20px 0;
+    }
+
+    .boost-heading {
+        text-align: center;
+    }
+
+    .boost-item {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .boost-item:nth-of-type(n) {
+        margin: 0 0 20px;
+    }
+
+    .boost-item:last-of-type {
+        margin: 0;
+    }
+
+    .boost-pic {
+        margin: 0 0 15px;
+    }
+
+    .boost-text {
+        margin: 0 0 15px;
+    }
+
+    .boost-desc {
+        margin: 0 0 15px;
+    }
+
+    .revolut {
+        padding: 20px 0;
+    }
+
+    .flex-revolut {
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    .man {
+        order:-1;
+        border-radius: 50%;
+        margin: 0 0 20px;
+    }
+
+    .quote {
+        margin: 0;
+        padding: 10px 20px 0;
+    }
+
+    .quote-text {
+        width: unset;
+    }
+
+    .quote-text::after {
+        right: unset;
+    }
 }
 
 @media (max-width: 767px) {
@@ -950,5 +1012,23 @@ body {
 
     .localize-desc {
         margin: 0 0 15px;
+    }
+
+    .boost-text {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .boost-list .card-item::after {
+        display: none;
+    }
+
+    .boost-text {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .quote {
+        padding: 10px 10px 0;
     }
 }
