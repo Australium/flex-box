@@ -763,7 +763,6 @@ body {
         width: 48%;
         flex-direction: column;
         align-items: unset;
-        justify-content: space-between;
     }
 
     .giant-li:nth-of-type(2n) {
@@ -790,6 +789,25 @@ body {
 
     .giant-desc {
         width: unset;
+    }
+
+    .card-item {
+        margin: 0;
+        width: 50%;
+        padding: 0;
+        margin: 0 0 20px;
+    }
+
+    .card-item:nth-last-of-type(-n+2) {
+        margin: 0;
+    }
+
+    .localize {
+        padding: 30px 0;
+    }
+
+    .localize-desc {
+        width: 90%;
     }
 }
 
@@ -893,5 +911,44 @@ body {
 
     .giant-li:nth-last-of-type(2) {
         margin: 0 0 30px;
+    }
+
+    .card-list {
+        flex-flow: column nowrap;
+        justify-content: unset;
+    }
+
+    .card-item {
+        width: 100%;
+        position: relative;
+    }
+
+    .localize-text {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .card-item:nth-last-of-type(-n+3) {
+        margin: 0 0 20px;
+    }
+
+    .card-item:last-of-type {
+        margin: 0;
+    }
+
+    .card-item::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        width: 90%;
+    }
+
+    .card-item::after:last-of-type {
+        border: none;
+    }
+
+    .localize-desc {
+        margin: 0 0 15px;
     }
 }
