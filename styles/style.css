@@ -901,7 +901,7 @@ body {
     }
 
     .integrate {
-        padding: 20px 0;
+        padding: 50px 0;
     }
 
     .integrate-text {
@@ -924,7 +924,7 @@ body {
     }
 
     .wait {
-        padding: 30px 0;
+        padding: 50px 0;
     }
 
     .wait-text {
@@ -939,6 +939,37 @@ body {
     .wait-button {
         width: 88%;
         text-align: center;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer-flex {
+        justify-content: center;
+    }
+
+    .studies {
+        margin: 0 0 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bike {
+        border-radius: 10%;
+        margin: 0 0 20px;
+    }
+
+    .foot-bar {
+        width: 100%;
+    }
+
+    .foot-item {
+        margin: 0 auto 0 0;
+    }
+
+    .sub-foot-item {
+        width: auto;
     }
 }
 
@@ -1140,5 +1171,21 @@ body {
 
     .wait-button {
         width: 100%;
+    }
+
+    .foot-list {
+        flex-wrap: wrap;
+    }
+
+    .foot-item {
+        width: 50%;
+    }
+
+    .foot-item:nth-of-type(-n+2) {
+        margin: 0 0 20px 0;
+    }
+
+    .foot-list {
+        text-align: center;
     }
 }
