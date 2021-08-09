@@ -897,6 +897,30 @@ body {
 
     .cake-heading {
         width: auto;
+        text-align: center;
+    }
+
+    .integrate {
+        padding: 20px 0;
+    }
+
+    .integrate-text {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .bird {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .integrate-button {
+        width: 88%;
+        text-align: center;
+    }
+
+    .integrate-desc {
+        width: auto;
     }
 }
 
@@ -1085,5 +1109,14 @@ body {
 
     .g-two {
         margin: 0 auto 0 0;
+    }
+
+    .integrate-button {
+        width: 100%;
+    }
+
+    .integrate-text {
+        font-size: 28px;
+        line-height: 35px;
     }
 }
